@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_shared_blog_sections",
+  "info": {
+    "displayName": "blogSection"
+  },
+  "options": {},
+  "attributes": {
+    "number": {
+      "type": "decimal"
+    },
+    "title": {
+      "type": "string"
+    },
+    "subSections": {
+      "type": "component",
+      "component": "shared.section-item",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

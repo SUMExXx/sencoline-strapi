@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_shared_section_items",
+  "info": {
+    "displayName": "subSection"
+  },
+  "options": {},
+  "attributes": {
+    "number": {
+      "type": "decimal"
+    },
+    "title": {
+      "type": "string"
+    },
+    "list": {
+      "type": "component",
+      "component": "shared.list-item",
+      "repeatable": true
+    },
+    "texts": {
+      "type": "component",
+      "component": "shared.text",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}
