@@ -9,7 +9,7 @@ services:
     working_dir: /app
     volumes:
       - ./app:/app
-    command: sh -c "yarn install && yarn develop"
+    command: sh -c "npm install && npm run develop"
     depends_on:
       - db
     environment:
